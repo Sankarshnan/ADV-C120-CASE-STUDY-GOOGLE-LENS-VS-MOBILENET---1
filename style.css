@@ -1,0 +1,95 @@
+.heading
+{
+  width: 100%;
+  margin: 0px;
+  box-shadow:5px 5px 5px grey;
+}
+
+.heading_div
+  {
+    float: none;
+    background: white ; 
+    border-radius: 20px; 
+    padding: 10px;
+    color: black;
+    box-shadow:5px 5px 5px grey;
+} 
+
+body{
+  background-image: linear-gradient(to right top,rgb(2, 225, 255), rgb(0, 255, 157), rgb(0, 183, 255), #056fe7, #053ae7);
+}
+
+.header_div
+{
+background: white;
+color: yellowgreen;
+}
+
+.header_div
+{
+background: rgb(102, 255, 0);
+color: yellowgreen;
+text-align: center;
+color: black;
+
+}
+
+.main_div 
+{
+  background: yellow;
+  padding: 10px;
+  margin-top: 15px;
+  border: 3px solid black;
+ 
+}
+
+.header_div img
+{
+ width: 100px;
+ text-align: left;
+}  
+
+#img{
+  border: black;
+  border-radius: 5;
+}
+
+#drums{
+  text-align: center;
+  text-align: top;
+}
+
+#index{
+  color: white;
+}
+
+.column {
+  float:left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#back{
+  text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+
+.copy_right_footer
+{
+  position: fixed;
+  color: rgb(255, 0, 0);
+  bottom: 0;
+  width: 100%;
+  background-color: yellowgreen;
+  line-height: 3;
+  text-align: center;
+  font-size: medium;
+}   
